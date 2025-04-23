@@ -57,15 +57,15 @@
       </div>
     </div>
   </section>
-  
 
-  <section id="contacto">
-    <h2>Contacto</h2>
-    <form>
-      <input type="text" placeholder="Tu nombre" required />
-      <input type="email" placeholder="Tu correo" required />
-      <textarea placeholder="Mensaje" required></textarea>
-      <button type="submit">Enviar</button>
+  <section id="contacto" class="p-6 bg-white max-w-3xl mx-auto mt-6 rounded-lg shadow">
+    <h2 class="text-2xl font-semibold text-indigo-600 mb-2">Contacto</h2>
+  
+    <form action=""https://formspree.io/f/mnndqvav"" method="POST" class="space-y-4">
+      <input type="text" name="nombre" placeholder="Tu nombre" required class="w-full p-2 border border-gray-300 rounded" />
+      <input type="email" name="email" placeholder="Tu correo" required class="w-full p-2 border border-gray-300 rounded" />
+      <textarea name="mensaje" placeholder="Mensaje" required class="w-full p-2 border border-gray-300 rounded"></textarea>
+      <button type="submit" class="bg-indigo-600 text-white px-4 py-2 rounded hover:bg-indigo-700 transition">Enviar</button>
     </form>
   </section>
   
