@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Mi Portafolio</title>
-  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
   <header>
@@ -17,19 +17,23 @@
     <a href="#contacto">Contacto</a>
   </nav>
   
-  <section id="sobre-mi">
-    <h2>Sobre mí</h2>
-    <p>Soy un desarrollador web en formación, apasionado por la tecnología y los proyectos que resuelven problemas reales. Este portafolio es parte de mi camino de aprendizaje y práctica constante.</p>
+  <header class="bg-indigo-600 text-white text-center p-10">
+    <h1 class="text-4xl font-bold">Hola, soy Tu Nombre</h1>
+    <p class="text-lg mt-2">Desarrollador Web en formación</p>
+  </header>
+
+  <section id="sobre-mi" class="p-6 bg-white max-w-3xl mx-auto mt-6 rounded-lg shadow">
+    <h2 class="text-2xl font-semibold text-indigo-600 mb-2">Sobre mí</h2>
+    <p class="text-gray-700">Soy un desarrollador web en formación, apasionado por la tecnología...</p>
   </section>
   
-  <section id="habilidades">
-    <h2>Habilidades</h2>
-    <ul>
+  <section id="habilidades" class="p-6 bg-white max-w-3xl mx-auto mt-6 rounded-lg shadow">
+    <h2 class="text-2xl font-semibold text-indigo-600 mb-2">Habilidades</h2>
+    <ul class="list-disc list-inside text-gray-700">
       <li>HTML5</li>
       <li>CSS3</li>
       <li>JavaScript</li>
       <li>Git y GitHub</li>
-      <li>Diseño responsivo</li>
     </ul>
   </section>
   
