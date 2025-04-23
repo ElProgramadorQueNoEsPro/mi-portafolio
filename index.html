@@ -61,13 +61,16 @@
   <section id="contacto" class="p-6 bg-white max-w-3xl mx-auto mt-6 rounded-lg shadow">
     <h2 class="text-2xl font-semibold text-indigo-600 mb-2">Contacto</h2>
   
-    <form action="https://formspree.io/f/mnndqvav" method="POST" class="space-y-4">
+    <form id="formulario-contacto" action="https://formspree.io/f/mnndqvav" method="POST" class="space-y-4">
       <input type="text" name="nombre" placeholder="Tu nombre" required class="w-full p-2 border border-gray-300 rounded" />
       <input type="email" name="email" placeholder="Tu correo" required class="w-full p-2 border border-gray-300 rounded" />
       <textarea name="mensaje" placeholder="Mensaje" required class="w-full p-2 border border-gray-300 rounded"></textarea>
       <button type="submit" class="bg-indigo-600 text-white px-4 py-2 rounded hover:bg-indigo-700 transition">Enviar</button>
     </form>
+  
+    <p id="mensaje-exito" class="text-green-600 mt-4 hidden">✅ ¡Gracias! Tu mensaje fue enviado correctamente.</p>
   </section>
+  
   
   <footer class="bg-indigo-600 text-white py-6 mt-12">
     <div class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
