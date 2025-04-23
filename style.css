@@ -31,4 +31,26 @@ body {
     border: none;
     cursor: pointer;
   }
+  section#sobre-mi, section#habilidades {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  }
+  
+  h2 {
+    color: #4f46e5;
+  }
+  nav {
+    background-color: #eee;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+  }
   
